@@ -1,8 +1,19 @@
+@import "./variables.module.scss";
+
 body {
-  font-family: "Helvetica Neue";
+  font-family: $font-family-base;
+  background-color: $body-background-color;
+  font-size: $font-size-xs;
+  line-height: $line-height-small;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+header {
+  width: 100%;
+  padding: 2rem;
+}
+
+header h3 {
+  font-size: $font-size-medium;
+  max-width: 450px;
+  width: 100%;
 }

@@ -1,0 +1,96 @@
+@import "./variables.module.scss";
+
+.quoteContainer {
+  margin-bottom: 3rem;
+  padding: 0 5px;
+}
+
+ul.quotesList {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.fontXS {
+  font-size: $font-size-xs;
+}
+
+.fontSmall {
+  font-size: $font-size-small;
+}
+
+.fontSmall2 {
+  font-size: $font-size-small-2;
+}
+
+.fontMedium {
+  font-size: $font-size-medium;
+}
+
+.fontLarge {
+  font-size: $font-size-large;
+}
+
+.fontXL {
+  font-size: $font-size-xl;
+}
+
+.fontXL2 {
+  font-size: $font-size-xl-2;
+}
+
+.lightFont {
+  color: $font-color-light;
+}
+
+.darkFont {
+  color: $font-color-dark;
+}
+
+.redFont {
+  color: $font-color-red;
+}
+
+.blueFont {
+  color: $font-color-blue;
+}
+
+.greenFont {
+  color: $font-color-green;
+}
+
+.yellowFont {
+  color: $font-color-yellow;
+}
+
+.pinkFont {
+  color: $font-color-pink;
+}
+
+.pinkBG {
+  background-color: $quote-bg-pink;
+}
+
+.greenBG {
+  background-color: $quote-bg-green;
+}
+.blueBG {
+  background-color: $quote-bg-blue;
+}
+.redBG {
+  background-color: $quote-bg-red;
+}
+.yellowBG {
+  background-color: $quote-bg-yellow;
+}
+.blackBG {
+  background-color: $quote-bg-black;
+}
+.whiteBG {
+  background-color: $quote-bg-white;
+}
