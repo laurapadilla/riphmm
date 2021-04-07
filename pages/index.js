@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.scss";
+import utils from "../styles/utils.module.scss";
 import Quotes from "./quotes";
 
 export default function Home() {
@@ -22,9 +23,9 @@ export default function Home() {
       </div>
 
       <header>
-        <h3>
-          #ripHMM is a complilation of some of my favorite feedback i received
-          while working on HMM.
+        <h3 className={utils.compagnon}>
+          #ripHMM is a complilation of some of my favorite feedback received
+          while working on the HMM application.
         </h3>
       </header>
 

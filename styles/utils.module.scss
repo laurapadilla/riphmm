@@ -16,6 +16,10 @@ ul.quotesList {
   font-style: italic;
 }
 
+.uppercase {
+  text-transform: uppercase;
+}
+
 .fontXS {
   font-size: $font-size-xs;
 }
@@ -93,4 +97,56 @@ ul.quotesList {
 }
 .whiteBG {
   background-color: $quote-bg-white;
+}
+
+.buffon {
+  font-family: $font-buffon;
+}
+
+.compagnon {
+  font-family: $font-compagnon;
+}
+
+.messapia {
+  font-family: $font-messapia;
+  font-weight: normal;
+}
+
+.messapiaBold {
+  font-family: $font-messapia;
+  font-weight: bold;
+}
+
+.coconat {
+  font-family: $font-coconat;
+  font-weight: normal;
+}
+
+.coconatBold {
+  font-family: $font-coconat;
+  font-weight: bold;
+}
+
+.courier {
+  font-family: $font-courier;
+}
+
+.w25 {
+  width: 25%;
+}
+
+.w30 {
+  width: 30%;
+}
+
+.w40 {
+  width: 40%;
+}
+
+.w50 {
+  width: 50%;
+}
+
+.w75 {
+  width: 75%;
 }

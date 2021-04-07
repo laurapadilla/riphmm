@@ -1,5 +1,40 @@
 @import "./variables.module.scss";
 
+@font-face {
+  font-family: "Buffon";
+  src: url(/fonts/Buffon-Regular.otf);
+}
+
+@font-face {
+  font-family: "Coconat";
+  src: url(/fonts/Coconat-BoldExt.woff2);
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Coconat";
+  src: url(/fonts/Coconat-Regular.woff2);
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Compagnon";
+  src: url(/fonts/Compagnon-Roman.woff2);
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Messapia";
+  src: url(/fonts/Messapia-Bold.woff2);
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Messapia";
+  src: url(/fonts/Messapia-Regular.woff2);
+  font-weight: normal;
+}
+
 @keyframes noise {
   0% {
     transform: translate(0);
@@ -49,7 +84,7 @@ header {
 }
 
 header h3 {
-  font-size: $font-size-medium;
+  font-size: $font-size-small;
   max-width: 450px;
   width: 100%;
 }
