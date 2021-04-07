@@ -3,7 +3,7 @@ import utils from "../styles/utils.module.scss";
 const quotes = [
   {
     id: 1,
-    quote: "Make the font bigger",
+    quote: "Make the font BIGGER",
     classNames: `${utils.quoteContainer} ${utils.fontLarge} ${utils.pinkBG} ${utils.lightFont}`,
   },
   {
